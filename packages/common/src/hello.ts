@@ -1,0 +1,1 @@
+export const helloWorld = function (name: string) { console.log(`Hello from ${name}`) }

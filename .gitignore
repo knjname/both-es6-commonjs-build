@@ -1,5 +1,9 @@
 ### https://raw.github.com/github/gitignore/c4ed859434e4eb33c85ad8048fc907d470f8ae4b/Node.gitignore
 
+packages/*/build
+packages/*/es6
+packages/*/commonjs
+
 # Logs
 logs
 *.log

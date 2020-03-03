@@ -1,5 +1,12 @@
 {
     "name": "@my/common",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "main": "commonjs/index.js",
+    "module": "es6/index.js",
+    "devDependencies": {
+        "typescript": "^3.8.3"
+    },
+    "scripts": {
+        "build": "tsc --module ES6 --outDir es6 && tsc --module CommonJS --outDir commonjs"
+    }
 }
-  
